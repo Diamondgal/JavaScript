@@ -1,0 +1,21 @@
+Game Overview.
+1. The purpose of the game is for player to 'self-improve' throughout various levels, ultimately seeking to be "enlightened".
+2. Player is presented with 'iconic personalities' to meet. Player selects.
+3. Player is presented with a level "Staged Stimulated Circumstance" where they meet the 'Iconic Personality".  
+3. Player is presented with three actions/behaviors they could make in a level.
+4. Each action has a repsonse being "definitely not and a reason why"; "a tongue-in-cheek response" and "the best response". 
+5. By choosing the 'best' action/behaviour player progresses to a new level.
+
+
+Tasks:
+1.	Welcome player to game and set the scene. 
+2.	Start Play Button.
+3.	Present the List of Iconic Personalities to meet.
+4.	Once Iconic P is selected - Staged Stimulated Circumstance is introduced.
+5.	Three Actions are presented with Stimulated Circumstance.
+6.	Each action has outcome: "no defintely not response" "tongue-in-cheek response" and "best response".
+7.	On "No response" - player must choose again.
+8.	On "Tongue-in-cheek" - player must choose again.
+9.	On "Best reponse" - player gets to advance to advance to meet another Iconic Personality they have not met.
+10.	Game is complete when player has completed "best response" with each Iconic Personality and achieves "Enlightened" final level.	
+	
