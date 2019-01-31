@@ -8,3 +8,8 @@ Game Overview.
 4. Player is presented with three choices in each level. 
 4. Each choice has a repsonse being "definitely not and a reason why"; "a tongue-in-cheek response" and "the best response". 
 5. By choosing the 'best response', player progresses to a new level.
+
+#Process updates
+1. Game starts with my first decision tree which ended up being shooting really high - eeek recursion!  First time using draw.io. \\
+![DecisionTreeio](checkPermission.jpg) \\
+
