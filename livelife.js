@@ -1,4 +1,22 @@
 alert ("Live Life Game");
+function checkPermission(returningPrompt) {
+    let message = "Do you give yourself permission to have some fun? - hint - yes or no";
+
+    if (returningPrompt) {
+        message = "Are you sure?";
+    }
+    let fun = prompt(message);
+
+    if(fun ==="yes"){
+        return alert("Good Lets go");
+    }
+    else {
+        return checkPermission("this could be any message but lets go with i've got dejavu");
+    }
+}
+
+checkPermission();
+
 let choice=prompt("Hey Player! This is the beginning of your self-improvement journey to Enlightenment. To get started, hit the letter a.")
 
 
