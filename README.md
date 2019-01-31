@@ -1,5 +1,5 @@
 # JavaScript
-Content during week 3 & 4 of Codeschool. Our task was to build a game using .js. 
+Content during week 3 & 4 of Codeschool. Our task was to build a game using .js. \\
 ##Live Life Game
 Game Overview.
 1. The purpose of the game is for player to 'self-improve' throughout various levels, ultimately seeking to be "enlightened".
