@@ -19,9 +19,6 @@ checkPermission();
 
 let choice=prompt("Hey Player! This is the beginning of your self-improvement journey to Enlightenment. To get started, hit the letter a.")
 
-// if (!choice) {
-//     alert ('Do you want to quit this game');
-// }
 
 // let a ="Dalai Lama";
 // let b ="Potential love of your life";
@@ -30,12 +27,13 @@ let choice=prompt("Hey Player! This is the beginning of your self-improvement jo
 // let e ="Hot dog vendor";
 // let f ="Spiderman comicbook";
 
-let characOne="Your challenge is to meet the Dalai Lama";
-let characTwo="YOUR NEXT CHALLENGE: is that you bump into a stranger on the pavement while you have your head buried into your cellphone, this could be love of your life";
-let characThree="NEW CHALLENGE : You are taking a walk in the park when you notice a scraggly-looking stray dog in a quiet corner of the park ... you have just met your next life challenge";
+let characOne="YOUR CHALLENGE : Meet the Dalai Lama";
+let characTwo="YOUR NEXT CHALLENGE: You bump into a stranger on the pavement while you have your head buried into your cellphone, this could be love of your life";
+let characThree="NEW CHALLENGE : You are taking a walk in the park when you notice a scraggly-looking stray dog in a quiet corner of the park ...";
 let characFour="CHALLENGE AHEAD! It's summertime in Paris, you are enjoying your favourite gellato at the foot of the Eiffel Tower when you notice a crying child all alone.";
 let characFive="HUNGRY FOR A NEW CHALLENGE! In New York City, you spot a hot dog vendor.  You are starving and haven't eaten anything all day long.";
-// let characSix="Spiderman comicbook";
+let gameOver="AND SO ENDETH THE JOURNEY OF THIS GAME.  \n Leave with these wise words from Theodore Roosevelt : \nIt is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat."
+let final="Thank-you for playing"
 
 
 
@@ -47,6 +45,7 @@ if (choice === "a") {
     let chalOneConfront="Stop and say hi";
     choice = prompt("Welcome to your challenge, you are with the Dalai Lama in a Zen Garden. You can make one of three choices: \na= " + chalOneIgnore + " \nb =" + chalOneAvoid + "  \nc=" + chalOneConfront );
 
+    
     while (choice !=="c") {
     
  
@@ -56,7 +55,7 @@ if (choice === "a") {
 
     
     else if (choice ==="a") {
-        alert("Are you kidding me? There are only three reasonable explanations for your choice. \n You were born yesterday. \n You are suffering a severe concussion. \n Aliens kidnapped you for 84 years. If none of these are true statements, you should try again.")
+        alert("Are you kidding me? There are only three reasonable explanations for this choice. \n 1. You were born yesterday. \n 2. You are suffering a severe concussion. \n 3. Aliens kidnapped you for 84 years. If none of these are true statements, you should try again.")
     }
  
     if (choice !=="c"){
@@ -66,7 +65,7 @@ if (choice === "a") {
     }
     } 
     if (choice ==="c"){
-    alert("Yes! Regardless of what you believe - this is a great moment in your life. Consider what he said when awarderd of The Nobel Piece Prize in 1989 : I feel honored, humbled and deeply moved that you should give this important prize to a simple monk from Tibet I am no- one special. But I believe the prize is a recognition of the true value of altruism, love, compassion and non-violence which I try to practice, in accordance with the teachings of the Buddha and the great sages of India and Tibet. I accept the prize with profound gratitude on behalf of the oppressed everywhere and for all those who struggle for freedom and work for world peace. I accept it as a tribute to the man who founded the modern tradition of non-violent action for change Mahatma Gandhi whose life taught and inspired me. No matter what part of the world we come from, we are all basically the same human beings. We all seek happiness and try to avoid suffering. We have the same basic human needs and is concerns. All of us human beings want freedom and the right to determine our own destiny as individuals and as people.")
+    alert("Yes! Regardless of what you believe - this is a great moment in your life. Consider what his words when awarderd The Nobel Piece Prize in 1989: \nI feel honored, humbled and deeply moved that you should give this important prize to a simple monk from Tibet I am no- one special. But I believe the prize is a recognition of the true value of altruism, love, compassion and non-violence which I try to practice, in accordance with the teachings of the Buddha and the great sages of India and Tibet. I accept the prize with profound gratitude on behalf of the oppressed everywhere and for all those who struggle for freedom and work for world peace. I accept it as a tribute to the man who founded the modern tradition of non-violent action for change Mahatma Gandhi whose life taught and inspired me. No matter what part of the world we come from, we are all basically the same human beings. We all seek happiness and try to avoid suffering. We have the same basic human needs and is concerns. All of us human beings want freedom and the right to determine our own destiny as individuals and as people.")
     }
     }
 
@@ -151,8 +150,8 @@ alert(characThree);{
 
 alert(characFour);{
     let chalOneAvoid="You immediately leap forward and race to the kid, splashing ice-cream everywhere and grab the kid by his arm";
-    let chalOneIgnore="Your ice-cream is so good and you don't really want to share, so you turn around and pretend you haven't seen the kid";
-    let chalOneConfront="You start walking over to the kid whilst at the same time look around for an obviously distressed adult and a figure of authority like a policeman too, you want to help";
+    let chalOneIgnore="Your ice-cream is so good and you don't really want to share, so you turn around and praetend you haven't seen the kid";
+    let chalOneConfront="You start walking over to the kid whilst at the same time look around for an obviously distressed adult and a figure of authority like a policeman, you want to help";
             choice = prompt("Three things race through your mind in an instant: \na= " + chalOneIgnore + " \nb =" + chalOneAvoid + "  \nc=" + chalOneConfront );
             
         
@@ -175,7 +174,7 @@ alert(characFour);{
             }
             } 
     if (choice ==="c"){
-            alert("This is a good approach. You want to help the kid and you want to make sure that other adults can see your willingness to help.  This enlightenment in this challenge  is about being willing to help others and also making your intentions of helping responsibly clear. In a world where human trafficking is a real thing - you want to be alert to help the meek and you don't want to look the other way.  Good job.")
+            alert("This is a good approach. You want to help the kid and you want to make sure that other adults can see your willingness to help.  The enlightenment in this challenge is about being willing to help others and also making your intentions of helping responsibly clear. In a world where human trafficking is a real thing - you want to be alert to help the meek and you don't want to look the other way.  Good job.")
             }
             }
         
@@ -208,4 +207,5 @@ alert(characFive);{
                 }
                 }
 
-                
+                alert(gameOver);
+alert (final)
