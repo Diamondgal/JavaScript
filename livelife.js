@@ -1,22 +1,48 @@
-alert("Live Life Game");
+"use strict"
+
 document.getElementById("Gamename").innerHTML = "Live Life Game"
 function checkPermission(returningPrompt) {
-    let message = "Do you give yourself permission to have some fun? - hint - yes or no";
+    let message = "Do you give yourself permission to have some fun? - hint - press the button";
+    let message1 ="are you sure?";
+    let message2="Good lets go";
+    
+    if (returningPrompt == "firstRun") {
+        console.log (returningPrompt);
+        // let fun = document.createElement("input");
+        // document.body.appendChild(fun);
+        document.getElementById("introduction").innerHTML = message; 
+        
+        document.body.addEventListener("click", function(event) {
+        
+            let mainButton = document.getElementById("mainButton")
+            
+        checkPermission("secondRun")
+        })
 
-    if (returningPrompt) {
-        message = "Are you sure?";
-    }
-    let fun = prompt(message);
 
-    if (fun === "yes") {
-        return alert("Good Lets go");
-    }
-    else {
-        return checkPermission("this could be any message but lets go with i've got dejavu");
-    }
 }
 
-checkPermission();
+    
+    
+    else if (returningPrompt == "secondRun" ) {
+        console.log (returningPrompt);
+        document.getElementById("introduction").innerHTML = message1;
+    }
+    
+
+    // if (fun === "yes") {
+    //     console.log(fun);
+    
+    // return document.getElementById("introduction").innerHTML = message2;
+    // }
+    
+    // else {
+    //     return checkPermission("this could be any message but lets go with i've got dejavu");
+    // }
+}
+
+checkPermission("firstRun");
+
 
 let choice = prompt("Hey Player! This is the beginning of your self-improvement journey to Enlightenment. To get started, hit the letter a.")
 
@@ -212,7 +238,8 @@ alert(gameOver);
 alert(final)
 
 
-document.createElement("div")
+// document.createElement("div");
 
-
-
+// if (characOne + settingOne + challengeOne === challengeOneAvoid) {
+//     console.log ("Did you really think you would get enlightened through the power of osmosis?")
+// }
