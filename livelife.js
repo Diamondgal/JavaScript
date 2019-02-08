@@ -1,5 +1,7 @@
 "use strict"
 
+// Introduction to game and permission to play//
+
 document.getElementById("Gamename").innerHTML = "Live Life Game"
 function checkPermission(returningPrompt) {
     let message = "Do you give yourself permission to have some fun? - hint - press the button";
