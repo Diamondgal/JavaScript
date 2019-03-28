@@ -12,4 +12,6 @@ Game Overview.
 #Process updates
 1. Game starts with my first decision tree which ended up being shooting really high - eeek recursion!  First time using draw.io. \\
 ![DecisionTreeio](checkPermission.jpg) \\
-
+## The game is a text based that runs in alerts in .js.   
+### The project was great fun and I leaned into my creative side to create a fun story for the user.  
+## Looking back in week 10 at this game - I realise it was less about any real developer and programming skills as I just didn't have the skills at this stage to understand how powerful DOM Elements and JS events could be this stage!  But great fun and a game that works!
